@@ -23,3 +23,19 @@ You should now be able to visit the path to where you installed the app and see 
 
 Read and edit `config/app.php` and setup the 'Datasources' and any other
 configuration relevant for your application.
+
+
+## Documentation Development
+
+Generate model:
+`bin/cake bake model Items`
+
+Generate view:
+`bin/cake bake template Items`
+
+Create migration:
+`bin/cake migrations create Items`
+
+Run migration:
+`bin/cake migrations migrate`
+
