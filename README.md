@@ -28,14 +28,22 @@ configuration relevant for your application.
 ## Documentation Development
 
 Generate model:
-`bin/cake bake model Items`
+```
+bin/cake bake model Items
+```
 
 Generate view:
-`bin/cake bake template Items`
+```
+bin/cake bake template Items
+```
 
 Create migration:
-`bin/cake migrations create Items`
+```
+bin/cake migrations create Items
+```
 
 Run migration:
-`bin/cake migrations migrate`
+```
+bin/cake migrations migrate
+```
 
